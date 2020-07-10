@@ -1,6 +1,6 @@
-const express = require('express');
-const React = require('react');
-const rendetToString = require('ReactDOM/server').rendetToString;
+const express = require('./node_modules/express');
+const React = require('./node_modules/react');
+const rendetToString = require('./node_modules/ReactDOM/server').rendetToString;
 const Home = require('./clients/components/Home').default;
 const app = express();
 
